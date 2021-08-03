@@ -57,9 +57,9 @@ const std::string authorName("Scott Meyers");
 ```cpp
 class GamePlayer {
 private:
-	static const int NumTurns = 5;
-	int scores[NumTurns];
-	...
+    static const int NumTurns = 5;
+    int scores[NumTurns];
+    ...
 };
 ```
 
@@ -81,9 +81,9 @@ const int GamePlayer::NumTurns;
 ```cpp
 class CostEstimate {
 private:
-	static const double FudgeFactor; // declaration of static class constant;
-																	 // goes in header file
-	...
+    static const double FudgeFactor; // declaration of static class constant;
+                                                                     // goes in header file
+    ...
 };
 // definition of static class constant;
 // goes in impl. file
@@ -108,9 +108,9 @@ private:
 ```cpp
 class GamePlayer {
 private:
-	enum { NumTurns = 5 };
-	int scores[NumTurns];
-	...
+    enum { NumTurns = 5 };
+    int scores[NumTurns];
+    ...
 };
 ```
 
@@ -140,7 +140,7 @@ private:
 template<typename T>
 inline void callWithMax(const T& a, const T& b)
 {
-	f(a > b ? a : b);
+    f(a > b ? a : b);
 }
 ```
 
@@ -190,12 +190,12 @@ STL iterator基于指针，因此表现与`T*`指针类似。
 class TextBlock {
 public:
 ...
-	const char& operator[](std::size_t position) const
-	{ return text[position]; }
-	char& operator[](std::size_t position)
-	{ return text[position]; }
+    const char& operator[](std::size_t position) const
+    { return text[position]; }
+    char& operator[](std::size_t position)
+    { return text[position]; }
 private:
-	std::string text;
+    std::string text;
 };
 ```
 
@@ -216,20 +216,20 @@ private:
 ```cpp
 class TextBlock {
 public:
-	...
-	const char& operator[](std::size_t position) const
-	{
-		...
-		return text[position];
-	}
-	char& operator[](std::size_t position)
-	{
-		return
-			const_cast<char&>(
-				static_cast<const TextBlock&>(*this)[position]
-			);
-	}
-	...
+    ...
+    const char& operator[](std::size_t position) const
+    {
+        ...
+        return text[position];
+    }
+    char& operator[](std::size_t position)
+    {
+        return
+            const_cast<char&>(
+                static_cast<const TextBlock&>(*this)[position]
+            );
+    }
+    ...
 };
 ```
 
