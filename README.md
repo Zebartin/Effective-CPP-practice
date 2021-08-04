@@ -1,5 +1,5 @@
 # Effective-CPP-practice
-阅读 *Effective C++: 55 Specific Ways to Improve Your Programs and Designs*，中文译名《Effective C++改善程序与设计的55个具体做法》一书时，做的一些代码验证练习和笔记。
+阅读 *Effective C++: 55 Specific Ways to Improve Your Programs and Designs, 3rd edition*，中文译名《Effective C++:改善程序与设计的55个具体做法》（第三版）一书时，做的一些代码验证练习和笔记。
 
 按章节划分：
 <details open>
