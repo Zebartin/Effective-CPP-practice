@@ -1,4 +1,4 @@
-# Item 2: Prefer consts, enums, and inlines to #defines.
+# Item 2: Prefer `const`s, `enum`s, and `inline`s to `#define`s.
 
 这么表述也许更合理：prefer the compiler to the preprocessor
 

@@ -1,4 +1,4 @@
-# Item 3: Use const whenever possible.
+# Item 3: Use `const` whenever possible.
 
 ## const与指针
 
