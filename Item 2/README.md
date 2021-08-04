@@ -2,8 +2,6 @@
 
 这么表述也许更合理：prefer the compiler to the preprocessor
 
-[TOC]
-
 ## 常量
 
 ```cpp

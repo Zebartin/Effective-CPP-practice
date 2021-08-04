@@ -1,7 +1,5 @@
 # Item 3: Use const whenever possible.
 
-[TOC]
-
 ## const与指针
 
 - `const`在星号左边，表示指针指向的数据是常量；
