@@ -42,12 +42,12 @@ STL iterator基于指针，因此表现与`T*`指针类似。
 class TextBlock {
 public:
 ...
-	const char& operator[](std::size_t position) const
-	{ return text[position]; }
-	char& operator[](std::size_t position)
-	{ return text[position]; }
+    const char& operator[](std::size_t position) const
+    { return text[position]; }
+    char& operator[](std::size_t position)
+    { return text[position]; }
 private:
-	std::string text;
+    std::string text;
 };
 ```
 
@@ -68,20 +68,20 @@ private:
 ```cpp
 class TextBlock {
 public:
-	...
-	const char& operator[](std::size_t position) const
-	{
-		...
-		return text[position];
-	}
-	char& operator[](std::size_t position)
-	{
-		return
-			const_cast<char&>(
-				static_cast<const TextBlock&>(*this)[position]
-			);
-	}
-	...
+    ...
+    const char& operator[](std::size_t position) const
+    {
+        ...
+        return text[position];
+    }
+    char& operator[](std::size_t position)
+    {
+        return
+            const_cast<char&>(
+                static_cast<const TextBlock&>(*this)[position]
+            );
+    }
+    ...
 };
 ```
 

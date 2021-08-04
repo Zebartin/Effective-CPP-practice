@@ -42,9 +42,9 @@ const std::string authorName("Scott Meyers");
 ```cpp
 class GamePlayer {
 private:
-	static const int NumTurns = 5;
-	int scores[NumTurns];
-	...
+    static const int NumTurns = 5;
+    int scores[NumTurns];
+    ...
 };
 ```
 
@@ -66,9 +66,9 @@ const int GamePlayer::NumTurns;
 ```cpp
 class CostEstimate {
 private:
-	static const double FudgeFactor; // declaration of static class constant;
-																	 // goes in header file
-	...
+    static const double FudgeFactor; // declaration of static class constant;
+                                     // goes in header file
+    ...
 };
 // definition of static class constant;
 // goes in impl. file
@@ -93,9 +93,9 @@ private:
 ```cpp
 class GamePlayer {
 private:
-	enum { NumTurns = 5 };
-	int scores[NumTurns];
-	...
+    enum { NumTurns = 5 };
+    int scores[NumTurns];
+    ...
 };
 ```
 
@@ -111,13 +111,13 @@ private:
 - 需要到处打括号，否则在表达式中使用这个宏可能会发生奇怪的事情
 - 表达式可能会被执行多次
 
-    ```cpp
-    #define CALL_WITH_MAX(a, b) f((a) > (b) ? (a) : (b))
+   ```cpp
+  #define CALL_WITH_MAX(a, b) f((a) > (b) ? (a) : (b))
 
-    int a = 5, b = 0;
-    CALL_WITH_MAX(++a, b);    // a加了2次
-    CALL_WITH_MAX(++a, b+10); // a加了1次
-    ```
+  int a = 5, b = 0;
+  CALL_WITH_MAX(++a, b);    // a加了2次
+  CALL_WITH_MAX(++a, b+10); // a加了1次
+  ```
 
 改用模板+内联函数：
 
@@ -125,7 +125,7 @@ private:
 template<typename T>
 inline void callWithMax(const T& a, const T& b)
 {
-	f(a > b ? a : b);
+    f(a > b ? a : b);
 }
 ```
 
