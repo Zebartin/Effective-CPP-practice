@@ -41,7 +41,7 @@ STL iterator基于指针，因此表现与`T*`指针类似。
 ```cpp
 class TextBlock {
 public:
-...
+    ...
     const char& operator[](std::size_t position) const
     { return text[position]; }
     char& operator[](std::size_t position)
