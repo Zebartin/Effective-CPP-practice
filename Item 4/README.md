@@ -41,7 +41,7 @@ translation unit是指经过预处理器宏展开后得到的实现文件，一�
 
 将全局静态对象（non-local static object）的初始化放到某个函数中，使之成为一个局部的静态对象。这样一来，只有在第一次调用这个函数的时候，这个对象才会被初始化。
 
-这种手法有点类似设计模式的一种——单例模式。
+这种手法有点类似设计模式中的一种——[单例模式](https://refactoringguru.cn/design-patterns/singleton)。
 
 ## 总结
 
