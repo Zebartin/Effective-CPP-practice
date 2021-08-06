@@ -23,3 +23,10 @@
   - [Item 11: Handle assignment to self in `operator=`.](Item%2011)
   - [Item 12: Copy all parts of an object.](Item%2012)
 </details>
+
+<details open>
+  <summary>Chapter 3: Resource Management</summary>
+
+  资源（resource）是指使用完毕后要返还给系统的东西。比如内存、文件描述符、互斥锁、GUI的字体和笔刷、数据库连接以及网络套接字。
+  
+</details>
