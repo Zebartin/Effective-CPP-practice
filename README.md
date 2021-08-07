@@ -28,5 +28,10 @@
   <summary>Chapter 3: Resource Management</summary>
 
   资源（resource）是指使用完毕后要返还给系统的东西。比如内存、文件描述符、互斥锁、GUI的字体和笔刷、数据库连接以及网络套接字。
-  
+
+  - [Item 13: Use objects to manage resources.](Item%2013)
+  - [Item 14: Think carefully about copying behavior in resource-managing classes.](Item%2014)
+  - [Item 15: Provide access to raw resources in resource-managing classes.](Item%2015)
+  - [Item 16: Use the same form in corresponding uses of `new` and `delete`.](Item%2016)
+  - [Item 17: Store `new`ed objects in smart pointers in standalone statements.](Item%2017)
 </details>
