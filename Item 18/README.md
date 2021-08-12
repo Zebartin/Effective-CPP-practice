@@ -65,7 +65,7 @@ std::tr1::shared_ptr<Investment> createInvestment()
 ```
 
 - 使用`static_cast`将0转换为指针是因为`tr1::shared_ptr`的构造函数要求一个真实的指针；
-- 为什么不直接用正确的指针初始化`tr1::shared_ptr`？见Item 26。
+- 根据Item 26，如果情况允许，直接用正确的指针初始化`tr1::shared_ptr`更好。
 
 ## 跨DLL问题
 
