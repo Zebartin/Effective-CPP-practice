@@ -2,7 +2,7 @@
 阅读 *Effective C++: 55 Specific Ways to Improve Your Programs and Designs, 3rd edition*，中文译名《Effective C++:改善程序与设计的55个具体做法》（第三版）一书时，做的一些代码验证练习和笔记。
 
 按章节划分：
-<details open>
+<details>
   <summary>Chapter 1: Accustoming Yourself to C++</summary>
 
   - [Item 1: View C++ as a federation of languages.](Item%2001)
@@ -11,7 +11,7 @@
   - [Item 4: Make sure that objects are initialized before they’re used.](Item%2004)
 </details>
 
-<details open>
+<details>
   <summary>Chapter 2: Constructors, Destructors, and Assignment Operators</summary>
 
   - [Item 5: Know what functions C++ silently writes and calls.](Item%2005)
@@ -24,7 +24,7 @@
   - [Item 12: Copy all parts of an object.](Item%2012)
 </details>
 
-<details open>
+<details>
   <summary>Chapter 3: Resource Management</summary>
 
   资源（resource）是指使用完毕后要返还给系统的东西。比如内存、文件描述符、互斥锁、GUI的字体和笔刷、数据库连接以及网络套接字。
@@ -34,4 +34,17 @@
   - [Item 15: Provide access to raw resources in resource-managing classes.](Item%2015)
   - [Item 16: Use the same form in corresponding uses of `new` and `delete`.](Item%2016)
   - [Item 17: Store `new`ed objects in smart pointers in standalone statements.](Item%2017)
+</details>
+
+<details>
+  <summary>Chapter 4: Designs and Declarations</summary>
+
+  - [Item 18: Make interfaces easy to use correctly and hard to use incorrectly.](Item%2018)
+  - [Item 19: Treat class design as type design.](Item%2019)
+  - [Item 20: Prefer pass-by-reference-to-`const` to pass-by-value.](Item%2020)
+  - [Item 21: Don’t try to return a reference when you must return an object.](Item%2021)
+  - [Item 22: Declare data members `private`.](Item%2022)
+  - [Item 23: Prefer non-member non-friend functions to member functions.](Item%2023)
+  - [Item 24: Declare non-member functions when type conversions should apply to all parameters.](Item%2024)
+  - [Item 25: Consider support for a non-throwing `swap`.](Item%2025)
 </details>
