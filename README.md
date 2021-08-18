@@ -48,3 +48,14 @@
   - [Item 24: Declare non-member functions when type conversions should apply to all parameters.](Item%2024)
   - [Item 25: Consider support for a non-throwing `swap`.](Item%2025)
 </details>
+
+<details>
+  <summary>Chapter 5: Implementations</summary>
+
+  - [Item 26: Postpone variable definitions as long as possible.](Item%2026)
+  - [Item 27: Minimize casting.](Item%2027)
+  - [Item 28: Avoid returning “handles” to object internals.](Item%2028)
+  - [Item 29: Strive for exception-safe code.](Item%2029)
+  - [Item 30: Understand the ins and outs of inlining.](Item%2030)
+  - [Item 31: Minimize compilation dependencies between files.](Item%2031)
+</details>
