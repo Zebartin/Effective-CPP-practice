@@ -59,3 +59,17 @@
   - [Item 30: Understand the ins and outs of inlining.](Item%2030)
   - [Item 31: Minimize compilation dependencies between files.](Item%2031)
 </details>
+
+<details>
+  <summary>Chapter 6: Inheritance and Object-Oriented Design</summary>
+
+  - [Item 32: Make sure public inheritance models “is-a.”](Item%2032)
+  - [Item 33: Avoid hiding inherited names.](Item%2033)
+  - [Item 34: Differentiate between inheritance of interface and inheritance of implementation.](Item%2034)
+  - [Item 35: Consider alternatives to virtual functions.](Item%2035)
+  - [Item 36: Never redefine an inherited non-virtual function.](Item%2036)
+  - [Item 37: Never redefine a function’s inherited default parameter value.](Item%2037)
+  - [Item 38: Model “has-a” or “is-implemented-in-terms-of” through composition.](Item%2038)
+  - [Item 39: Use private inheritance judiciously.](Item%2039)
+  - [Item 40: Use multiple inheritance judiciously.](Item%2040)
+</details>
