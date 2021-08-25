@@ -63,4 +63,4 @@ void workWithIterator(IterT iter)
 ## 总结
 
 - 在声明模板参数时，`class`和`typename`是等价的，可以互相交换；
-- 使用`typename`来表明嵌套的、存在依赖的类型名称，除了在基类列表中，或者在成员初始化列表中。
+- 使用`typename`来表明嵌套的待决类型名，除了在基类列表中或者在成员初始化列表中。
