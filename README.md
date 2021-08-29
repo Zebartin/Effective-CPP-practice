@@ -73,3 +73,16 @@
   - [Item 39: Use private inheritance judiciously.](Item%2039)
   - [Item 40: Use multiple inheritance judiciously.](Item%2040)
 </details>
+
+<details>
+  <summary>Chapter 7: Templates and Generic Programming</summary>
+
+  - [Item 41: Understand implicit interfaces and compile-time polymorphism.](Item%2041)
+  - [Item 42: Understand the two meanings of `typename`.](Item%2042)
+  - [Item 43: Know how to access names in templatized base classes.](Item%2043)
+  - [Item 44: Factor parameter-independent code out of templates.](Item%2044)
+  - [Item 45: Use member function templates to accept “all compatible types.”](Item%2045)
+  - [Item 46: Define non-member functions inside templates when type conversions are desired.](Item%2046)
+  - [Item 47: Use traits classes for information about types.](Item%2047)
+  - [Item 48: Be aware of template metaprogramming.](Item%2048)
+</details>
