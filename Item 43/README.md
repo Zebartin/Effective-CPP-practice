@@ -64,9 +64,9 @@ this->sendClear(info);
 
 ```cpp
 public:
-	using MsgSender<Company>::sendClear;
-	...
-	void sendClearMsg(const MsgInfo& info) { ... }
+    using MsgSender<Company>::sendClear;
+    ...
+    void sendClearMsg(const MsgInfo& info) { ... }
 ```
 
 ### 显式声明函数所属类
