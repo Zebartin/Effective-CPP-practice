@@ -86,3 +86,12 @@
   - [Item 47: Use traits classes for information about types.](Item%2047)
   - [Item 48: Be aware of template metaprogramming.](Item%2048)
 </details>
+
+<details>
+  <summary>Chapter 8: Customizing <code>new</code> and <code>delete</code></summary>
+
+  - [Item 49: Understand the behavior of the new-handler.](Item%2049)
+  - [Item 50: Understand when it makes sense to replace `new` and `delete`.](Item%2050)
+  - [Item 51: Adhere to convention when writing `new` and `delete`.](Item%2051)
+  - [Item 52: Write placement `delete` if you write placement `new`.](Item%2052)
+</details>
