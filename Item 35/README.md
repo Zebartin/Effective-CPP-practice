@@ -91,6 +91,15 @@ public:
     float health(const GameCharacter &) const;
     ...
 };
+
+class EvilBadGuy: public GameCharacter
+{
+public:
+    explicit EvilBadGuy(HealthCalcFunc hcf = defaultHealthCalc) : GameCharacter(hcf) 
+    { ... }
+    ...
+};
+...
 GameLevel currentLevel;
 EvilBadGuy ebg(
     std::tr1::bind(&GameLevel::health, currentLevel, _1));
