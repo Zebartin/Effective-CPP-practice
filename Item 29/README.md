@@ -35,7 +35,7 @@ void PrettyMenu::changeBackground(std::istream &imgSrc)
 
 上述代码中，如果`Image`的构造函数发生异常，一方面会导致互斥锁无法解锁，另一方面会导致`bgImage`指向不明，并且`imageChanges`莫名加1。
 
-修正第一个问题比较简单，可以使用Item 13和Item 14介绍的用RAII进行资源管理的办法进行修复。
+修正第一个问题比较简单，可以使用[Item 13](../Item%2013)和[Item 14](../Item%2014)介绍的用RAII进行资源管理的办法进行修复。
 
 ## 异常安全的三种保证
 

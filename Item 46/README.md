@@ -1,6 +1,6 @@
 # Item 46: Define non-member functions inside templates when type conversions are desired.
 
-将Item 24中的例子改造成模板：
+将[Item 24](../Item%2024)中的例子改造成模板：
 
 ```cpp
 template <typename T>
@@ -17,7 +17,7 @@ const Rational<T> operator*(const Rational<T> &lhs, const Rational<T> &rhs)
 { ... }
 ```
 
-与Item 24一样，想要支持：
+与[Item 24](../Item%2024)一样，想要支持：
 
 ```cpp
 Rational<int> oneHalf(1, 2);
@@ -34,7 +34,7 @@ Rational<int> result = oneHalf * 2;
 
 ## 将函数放入类中
 
-为了避免推断函数模板的参数，将这个函数放入类中。这样一来，当这个类模板实例化的时候，这个函数也会随之实例化，于是就不用推断模板参数了。而根据Item 24，这个函数理应是非成员函数，因此需要将它声明为友元函数。
+为了避免推断函数模板的参数，将这个函数放入类中。这样一来，当这个类模板实例化的时候，这个函数也会随之实例化，于是就不用推断模板参数了。而根据[Item 24](../Item%2024)，这个函数理应是非成员函数，因此需要将它声明为友元函数。
 
 这里使用友元，跟访问类的非public部分毫无关系，只是因为使用友元是在类中定义非成员函数的唯一途径。
 

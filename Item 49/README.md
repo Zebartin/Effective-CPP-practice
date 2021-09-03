@@ -2,7 +2,7 @@
 
 ## new-handler
 
-如果无法满足内存分配的请求，`new`会抛出`bad_alloc`异常，但在此之前，它会先调用一个可供用户自定义的异常处理函数new-handler（这是简化的说法，真正的细节见Item 51）。用户可以通过调用声明在`<new>`中的`set_new_handler`来设定这个异常处理函数：
+如果无法满足内存分配的请求，`new`会抛出`bad_alloc`异常，但在此之前，它会先调用一个可供用户自定义的异常处理函数new-handler（这是简化的说法，真正的细节见[Item 51](../Item%2051)）。用户可以通过调用声明在`<new>`中的`set_new_handler`来设定这个异常处理函数：
 
 ```cpp
 namespace std {
@@ -11,7 +11,7 @@ namespace std {
 }
 ```
 
-`new_handler`是返回值为`void`的函数指针，`set_new_handler`是一个**基本上**（见Item 29）不会抛出异常的函数。它将new-handler设置为`p`，同时返回之前的new_handler。
+`new_handler`是返回值为`void`的函数指针，`set_new_handler`是一个**基本上**（见[Item 29](../Item%2029)）不会抛出异常的函数。它将new-handler设置为`p`，同时返回之前的new_handler。
 
 在`new`能找到足够的内存进行分配之前，它会反复地调用new-handler。
 
@@ -43,7 +43,7 @@ private:
 };
 ```
 
-这个RAII类用于保存旧的new-handler，并在`new`完成后将其还原。其中通过Item 14介绍的技巧禁止了拷贝。
+这个RAII类用于保存旧的new-handler，并在`new`完成后将其还原。其中通过[Item 14](../Item%2014)介绍的技巧禁止了拷贝。
 
 然后用一个mixin-style的基类使其能够通用：
 

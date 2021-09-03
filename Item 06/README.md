@@ -39,7 +39,7 @@ class HomeForSale: private Uncopyable {
 
 - 从`Uncopyable`的继承不必是`public`的
 - `Uncopyable`的析构函数不必是虚函数
-- 由于`Uncopyable`中不包含数据，可以对它进行空基类的优化（Item 39），但可能会因此导致多重继承（Item 40），而多重继承可能会使得空基类优化失效
+- 由于`Uncopyable`中不包含数据，可以对它进行空基类的优化（[Item 39](../Item%2039)），但可能会因此导致多重继承（[Item 40](../Item%2040)），而多重继承可能会使得空基类优化失效
 
 另外，也可以直接使用Boost库中的`noncopyable`类，虽然名字有点古怪。
 

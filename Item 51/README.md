@@ -91,7 +91,7 @@ void Base::operator delete(void *rawMemory, std::size_t size) throw()
 }
 ```
 
-有趣的一点是，如果待删除的对象派生于某个缺少虚析构函数的基类，传递给`delete`的`size_t`值可能是错误的。这算是做好Item 7的另一个理由。
+有趣的一点是，如果待删除的对象派生于某个缺少虚析构函数的基类，传递给`delete`的`size_t`值可能是错误的。这算是做好[Item 7](../Item%2007)的另一个理由。
 
 ## 总结
 

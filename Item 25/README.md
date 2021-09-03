@@ -19,7 +19,7 @@ namespace std {
 
 ## 自定义`swap`
 
-有时候默认的`swap`不能满足要求，比如默认实现中的一些拷贝可能是没有必要的。一个关于pimpl idiom（pointer to implementation，Item 31）的例子是这样的：
+有时候默认的`swap`不能满足要求，比如默认实现中的一些拷贝可能是没有必要的。一个关于pimpl idiom（pointer to implementation，[Item 31](../Item%2031)）的例子是这样的：
 
 ```cpp
 class WidgetImpl {

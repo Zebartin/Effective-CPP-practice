@@ -147,7 +147,7 @@ typeid(typename std::iterator_traits<IterT>::iterator_category) == typeid(std::r
 
 ## 在编译时确定类型
 
-上面看起来已经够好了，但其实还不够。首先，它会出现编译问题（Item 48）。更关键的是，明明编译阶段就已经确定了`iterator_traits<IterT>::iterator_category`，却还需要在运行时通过if语句进行判断。这不仅浪费时间，还会增大可执行文件的体积。
+上面看起来已经够好了，但其实还不够。首先，它会出现编译问题（[Item 48](../Item%2048)）。更关键的是，明明编译阶段就已经确定了`iterator_traits<IterT>::iterator_category`，却还需要在运行时通过if语句进行判断。这不仅浪费时间，还会增大可执行文件的体积。
 
 重载（overloading）事实上提供了在编译时进行条件判断的方式。于是乎：
 

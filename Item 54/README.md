@@ -20,8 +20,8 @@ TR1规定了14种新组件，都在`std::tr1`这个命名空间中，包括：
 - 智能指针`shared_ptr`和`weak_ptr`：
   - `shared_ptr`行为上类似于内置指针，但带有引用计数（reference counting）的功能。当引用计数降到0时，`shared_ptr`会自行删除自己指向的对象。常用于避免无环结构的资源管理问题，但如果存在环状引用则不适用；
   - `weak_ptr`专门用于处理环状引用。它不参与引用计数，当其指向的对象由于引用计数为0被删除时，它本身会自动被标记为无效；
-- `function`：代表callable实体，使用样例可见Item 35；
-- `bind`：合并和扩展了STL中`bind1st`和`bind2nd`的功能。Item 35中有一个相关例子。
+- `function`：代表callable实体，使用样例可见[Item 35](../Item%2035)；
+- `bind`：合并和扩展了STL中`bind1st`和`bind2nd`的功能。[Item 35](../Item%2035)中有一个相关例子。
 
 其他TR1组件可以分成两个部分，第一部分是一些零散的功能：
 

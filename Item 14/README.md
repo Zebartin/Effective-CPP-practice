@@ -1,5 +1,5 @@
 # Item 14: Think carefully about copying behavior in resource-managing classes.
-Item 13中介绍了RAII思想，以及适用于基于堆（heap-based）的资源的两个RAII类，`auto_ptr`和`tr1::shared_ptr`。但不是所有资源都是基于堆的，对于这些资源，我们需要自定义自己的资源管理类。
+[Item 13](../Item%2013)中介绍了RAII思想，以及适用于基于堆（heap-based）的资源的两个RAII类，`auto_ptr`和`tr1::shared_ptr`。但不是所有资源都是基于堆的，对于这些资源，我们需要自定义自己的资源管理类。
 
 以对互斥锁的管理为例：
 
@@ -28,7 +28,7 @@ private:
 
 ### 禁止拷贝
 
-很多情况下，拷贝RAII对象都是不可理喻的。这时可以用[Item 6](../Item%2006)的技巧，通过继承`Uncopyable`类来禁用拷贝。
+很多情况下，拷贝RAII对象都是不可理喻的。这时可以用[[Item 6](../Item%2006)](../Item%2006)的技巧，通过继承`Uncopyable`类来禁用拷贝。
 
 ### 引用计数
 
