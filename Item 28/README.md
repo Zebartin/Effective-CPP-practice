@@ -11,7 +11,8 @@ struct RectData {
 };
 class Rectangle {
 public:
-    Point& upperLeft() const { return pData->ulhc; } 		Point& lowerRight() const { return pData->lrhc; }
+    Point& upperLeft() const { return pData->ulhc; }
+    Point& lowerRight() const { return pData->lrhc; }
     ...
 private:
     std::tr1::shared_ptr<RectData> pData;
