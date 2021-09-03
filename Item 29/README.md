@@ -1,6 +1,5 @@
 # Item 29: Strive for exception-safe code.
 
-[TOC]
 从以下这段代码开始：
 
 ```cpp
