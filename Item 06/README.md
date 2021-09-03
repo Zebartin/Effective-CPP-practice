@@ -46,3 +46,7 @@ class HomeForSale: private Uncopyable {
 ## 总结
 
 为了禁止编译器自动生成的函数，可以在将其声明为`private`的同时，不给出实现。其中一种可取方式是使用像`Uncopyable`这样的类。
+
+<a href="../Item%2005"><-</a>
+
+<a href="../Item%2007">-></a>

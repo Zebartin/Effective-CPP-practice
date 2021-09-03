@@ -96,3 +96,7 @@ public:
 
 - 如果你写了一个placement版本的`new`，务必写一个对应的placement版本的`delete`。否则，你的程序可能会时不时发生微妙的内存泄漏；
 - 如果你写了placement版本的`new`和`delete`，确保不要不经意间隐藏了这些函数的普通版本。
+
+<a href="../Item%2051"><-</a>
+
+<a href="../Item%2053">-></a>

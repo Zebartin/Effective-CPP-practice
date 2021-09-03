@@ -45,3 +45,7 @@ const Point *pUpperLeft = &(boundingBox(*pgo).upperLeft());
 ## 总结
 
 避免返回对象内部的handles（引用、指针或者迭代器）。这样提高了封装性，帮助`const`成员函数表现得`const`，并防止产生dangling handles。
+
+<a href="../Item%2027"><-</a>
+
+<a href="../Item%2029">-></a>

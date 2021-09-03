@@ -59,3 +59,7 @@ namespace std {
 - 标准C++库的主要功能包括STL，iostream，以及locale（区域设置？）。C89标准库也被包含在内；
 - TR1增加了对智能指针的支持（比如`tr1::shared_ptr`），通用的函数指针（`tr1::function`），基于哈希的容器，正则表达式，以及另外10种组件；
 - TR1本身只是一个规范。为了利用TR1，你需要某种实现，其中一种实现来源是Boost。
+
+<a href="../Item%2053"><-</a>
+
+<a href="../Item%2055">-></a>

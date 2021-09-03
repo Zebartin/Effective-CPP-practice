@@ -69,3 +69,7 @@ std::tr1::shared_ptr<Investment> pInv(createInvestment());
 
 - 为了防止资源泄露，使用RAII对象，在其构造函数中获取资源，并在其析构函数中释放资源；
 - 两个常用RAII类是`auto_ptr`和`tr1::shared_ptr`，后者通常更好，因为其拷贝行为符合直觉。拷贝`auto_ptr`会把自身置为`null`。
+
+<a href="../Item%2012"><-</a>
+
+<a href="../Item%2014">-></a>

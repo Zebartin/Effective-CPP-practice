@@ -135,3 +135,6 @@ inline void callWithMax(const T& a, const T& b)
 
 - 对于简单对象，使用`const`或`enum`而不是`#define`
 - 对于类似函数的宏，使用内联函数而不是`#define`
+<a href="../Item%2001"><-</a>
+
+<a href="../Item%2003">-></a>

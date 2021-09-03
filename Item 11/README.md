@@ -83,3 +83,7 @@ Widget& Widget::operator=(Widget rhs)
   - 小心组织语句顺序；
   - copy-and-swap
 - 保证操作多个可能相同的对象的函数工作正常。
+
+<a href="../Item%2010"><-</a>
+
+<a href="../Item%2012">-></a>

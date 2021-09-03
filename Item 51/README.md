@@ -97,3 +97,7 @@ void Base::operator delete(void *rawMemory, std::size_t size) throw()
 
 - 操作符`new`应有一个无限循环来分配内存，应在无法满足内存分配请求时调用new-handler，应能够0字节大小的请求。类专用的版本应能够处理比预期更大的数据块请求；
 - 操作符`delete`在传入的指针为null时不做任何事。类专用的版本应能够处理比预期更大的数据块。
+
+<a href="../Item%2050"><-</a>
+
+<a href="../Item%2052">-></a>

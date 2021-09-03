@@ -117,3 +117,7 @@ void doSomething(T& obj1, T& obj2) {
 - 如果你提供了一个`swap`成员函数，也同时提供一个非成员的`swap`函数，在其中调用`swap`成员函数。对于类（不包括类模板），同时也使`std::swap`模板特化；
 - 调用`swap`时，先声明`using std::swap`，然后不指明命名空间地调用`swap`；
 - 为用户类特殊化某个`std`模板是可以的，但永远不要尝试往`std`里加入全新的东西。
+
+<a href="../Item%2024"><-</a>
+
+<a href="../Item%2026">-></a>

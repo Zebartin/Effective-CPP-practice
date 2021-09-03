@@ -84,3 +84,7 @@ MsgSender<Company>::sendClear(info);
 - `this->`前缀；
 - 通过`using`使其可见；
 - 显式地指明基类。
+
+<a href="../Item%2042"><-</a>
+
+<a href="../Item%2044">-></a>

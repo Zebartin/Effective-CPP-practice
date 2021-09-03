@@ -80,3 +80,7 @@ void makeBigger(Rectangle &r)
 ## 总结
 
 public继承意味着“is-a”，所有适用于基类的同样也适用于派生类，因为派生类对象**就是（is a）**基类对象。
+
+<a href="../Item%2031"><-</a>
+
+<a href="../Item%2033">-></a>

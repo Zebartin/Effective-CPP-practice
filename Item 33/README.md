@@ -66,3 +66,7 @@ public:
 
 - 派生类里的名称会隐藏基类里的名称。在public继承时，这种情况是不希望看到的；
 - 要让被隐藏的名称重新可见，使用`using`进行声明，或者使用转发函数（forwarding functions）。
+
+<a href="../Item%2032"><-</a>
+
+<a href="../Item%2034">-></a>

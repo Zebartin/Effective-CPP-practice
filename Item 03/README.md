@@ -95,3 +95,6 @@ public:
 - 声明为`const`有助于编译器检测使用错误，`const`能在很多地方使用，比如函数参数、返回值、成员函数整体等等
 - 编译器强制要求bitwise constness，但作为编程者应该按照logical constness的原则来
 - 如果`const`函数和非`const`函数有基本一致的实现，可以让后者调用前者来避免代码重复
+<a href="../Item%2002"><-</a>
+
+<a href="../Item%2004">-></a>

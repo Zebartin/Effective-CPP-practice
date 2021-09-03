@@ -11,3 +11,7 @@
 
 - 组合（composition）与public继承的意思完全不同；
 - 从应用角度看，组合意味着has-a。从实现角度看，它意味着is-implemented-in-terms-of。
+
+<a href="../Item%2037"><-</a>
+
+<a href="../Item%2039">-></a>

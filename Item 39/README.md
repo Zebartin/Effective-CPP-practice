@@ -80,3 +80,7 @@ private:
 
 - private继承意味着is-implemented-in-terms-of。通常它都不如组合（composition）合适，但是当一个派生类需要访问基类的protected成员时，或者需要重新定义虚函数时，private继承也很合适；
 - 不像组合，private继承可以实现空基类优化（empty base optimization）。这对想要尽可能减小对象大小的库开发者来说比较重要。
+
+<a href="../Item%2038"><-</a>
+
+<a href="../Item%2040">-></a>

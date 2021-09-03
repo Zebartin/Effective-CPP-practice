@@ -216,3 +216,7 @@ TR1引入了更多的traits classes，超过50个，比如：
 
 - Traits classes提供在编译阶段可见的类型信息，可以通过模板和模板特化来实现；
 - 借助重载，traits classes能在编译阶段对类型做类似if...else的检测。
+
+<a href="../Item%2046"><-</a>
+
+<a href="../Item%2048">-></a>
