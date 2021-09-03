@@ -95,3 +95,11 @@
   - [Item 51: Adhere to convention when writing `new` and `delete`.](Item%2051)
   - [Item 52: Write placement `delete` if you write placement `new`.](Item%2052)
 </details>
+
+<details>
+  <summary>Chapter 9: Miscellany</summary>
+
+  - [Item 53: Pay attention to compiler warnings.](Item%2053)
+  - [Item 54: Familiarize yourself with the standard library, including TR1.](Item%2054)
+  - [Item 55: Familiarize yourself with Boost.](Item%2055)
+</details>
